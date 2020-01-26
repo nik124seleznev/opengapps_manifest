@@ -5,7 +5,7 @@
 <remote name="gitlab" fetch="https://gitlab.opengapps.org/opengapps/"  />
 
 <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
-<project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="gitlab" />
-<project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="gitlab" />
+<project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
+<project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
 
 </manifest>
