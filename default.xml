@@ -4,11 +4,8 @@
     <remote name="opengapps"
         fetch="https://github.com/opengapps/"  />
 
-    <remote name="open_gapps"
-        fetch="https://gitlab.opengapps.org/opengapps/"  />
-
     <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
-    <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="ten" remote="open_gapps" />
-    <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="ten" remote="open_gapps" />
+    <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
+    <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
 
 </manifest>
